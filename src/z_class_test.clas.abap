@@ -17,5 +17,6 @@ CLASS z_class_test IMPLEMENTATION.
     out->write(
       EXPORTING
         data   = 'I am not crazy!!!' ).
+    out->write( 'He is crazy!!!' ).
   ENDMETHOD.
 ENDCLASS.
