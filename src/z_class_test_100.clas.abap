@@ -16,9 +16,6 @@ CLASS z_class_test_100 IMPLEMENTATION.
     out->write(
       EXPORTING
         data   = 'Something crazy!!!'
-*        name   =
-*      RECEIVING
-*        output =
     ).
   ENDMETHOD.
 ENDCLASS.
