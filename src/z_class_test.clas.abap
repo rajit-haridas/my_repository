@@ -14,8 +14,6 @@ ENDCLASS.
 CLASS z_class_test IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     out->write( 'Hello World!!!' ).
-    out->write(
-      EXPORTING
-        data   = 'I am not crazy!!!' ).
+    out->write( EXPORTING data   = 'I am not crazy!!!' ).
   ENDMETHOD.
 ENDCLASS.
