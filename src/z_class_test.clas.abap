@@ -1,19 +1,13 @@
-CLASS z_class_test DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class Z_CLASS_TEST definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-    INTERFACES if_oo_adt_classrun.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS z_class_test IMPLEMENTATION.
-  METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World!!!' ).
-    out->write( EXPORTING data   = 'I am not crazy!!!' ).
-  ENDMETHOD.
+CLASS Z_CLASS_TEST IMPLEMENTATION.
 ENDCLASS.
