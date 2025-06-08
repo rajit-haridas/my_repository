@@ -17,5 +17,6 @@ define view entity ZCOUNTRY_INFO_S_CDS
       CreatedByUser,
       CreationDate,
       LastChangedByUser,
-      LastChangeDate
+      LastChangeDate 
 }
+  
